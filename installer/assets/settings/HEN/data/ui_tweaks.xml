@@ -1,0 +1,25 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="ui_tweaks" title="★ UI Tweaks">
+    <group id="grp_font" title="Font &amp; Text">
+      <text_input id="inp_font_size"      title="Font Size Override" description="Enter a font size (default: 24). Restart shell to apply." value="24" max_length="3"/>
+      <button    id="btn_set_font"        title="[ APPLY FONT SIZE ]"/>
+      <text_input id="inp_text_color"     title="Text Color (ARGB hex)" description="e.g. FFFFFFFF for white. Restart shell to apply." value="FFFFFFFF" max_length="8"/>
+      <button    id="btn_set_text_color"  title="[ APPLY TEXT COLOR ]"/>
+    </group>
+    <group id="grp_name" title="Identity">
+      <text_input id="inp_username"       title="Display Name Override" description="Shown on home screen header. Leave blank to use real name." value="" max_length="64"/>
+      <button    id="btn_set_username"    title="[ APPLY NAME ]"/>
+    </group>
+    <group id="grp_shell" title="Shell Tweaks">
+      <toggle_switch id="ui_hide_clock"   title="Hide System Clock"   description="Remove clock from top bar." value="0"/>
+      <toggle_switch id="ui_hide_notif"   title="Hide Notifications"  description="Suppress pop-up notifications." value="0"/>
+      <toggle_switch id="ui_dark_icons"   title="Dark Content Icons"  description="Force dark overlay on content thumbnails." value="0"/>
+      <toggle_switch id="ui_grid_compact" title="Compact Grid View"   description="Show more content tiles on the home screen." value="0"/>
+    </group>
+    <group id="grp_overlay" title="Overlay">
+      <toggle_switch id="ui_perf_overlay" title="Perf Overlay"        description="Show FPS / temp overlay during gameplay." value="0"/>
+      <toggle_switch id="ui_esp_overlay"  title="ESP Overlay"         description="Show entity bounds debug overlay." value="0"/>
+    </group>
+    <button id="btn_ui_apply" title="[ APPLY UI TWEAKS ]"/>
+  </setting_list>
+</system_settings>

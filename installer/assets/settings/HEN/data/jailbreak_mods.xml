@@ -1,0 +1,34 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="jailbreak_mods" title="★ Jailbreak Mods">
+    <group id="grp_debug" title="Debug &amp; Dev">
+      <toggle_switch id="jb_debug_menu"   title="Debug Menu"         description="Enables hidden system debug menu." value="0"/>
+      <toggle_switch id="jb_dipsw"        title="DipSw Override"     description="Force dev DipSw bits active." value="0"/>
+      <toggle_switch id="jb_qa_flag"      title="QA Flag"            description="Enables QA-mode features." value="0"/>
+      <toggle_switch id="jb_testkit"      title="TestKit Mode"       description="Emulate TestKit firmware behaviour." value="0"/>
+      <toggle_switch id="jb_devkit"       title="DevKit Mode"        description="Emulate DevKit firmware behaviour." value="0"/>
+    </group>
+    <group id="grp_net" title="Network">
+      <toggle_switch id="jb_lan_bypass"   title="LAN Bypass"         description="Allow network when PSN sign-in is blocked." value="0"/>
+      <toggle_switch id="jb_dns_block"    title="Block Sony DNS"     description="Block telemetry and patch-check DNS calls." value="0"/>
+      <toggle_switch id="jb_p2p"          title="P2P Direct Mode"    description="Force peer-to-peer game sessions." value="0"/>
+    </group>
+    <group id="grp_media" title="Media &amp; Content">
+      <toggle_switch id="jb_region_free"  title="Region Free"        description="Remove region lock on discs and PKGs." value="0"/>
+      <toggle_switch id="jb_trophy_lock"  title="Unlock Trophies"    description="Allow hidden/locked trophies to be earned." value="0"/>
+      <toggle_switch id="jb_patch_skip"   title="Skip Update Check"  description="Skip forced update checks on game launch." value="0"/>
+      <toggle_switch id="jb_disc_debug"   title="Disc Debug Info"    description="Show disc read debug overlay." value="0"/>
+    </group>
+    <group id="grp_sys" title="System">
+      <toggle_switch id="jb_no_sleep"     title="Disable Auto Sleep"  description="Prevent console from sleeping automatically." value="0"/>
+      <toggle_switch id="jb_fan_max"      title="Max Fan Speed"       description="Force fans to 100%% at all times." value="0"/>
+      <toggle_switch id="jb_fan_silent"   title="Silent Fan Mode"     description="Run fans at minimum speed (may overheat)." value="0"/>
+      <toggle_switch id="jb_boost"        title="Boost Mode"          description="Enable GPU boost clock (Pro: requires BC2 mode)." value="0"/>
+      <toggle_switch id="jb_bc2"          title="BC2 7nm Mode"        description="PS4 Pro: enable 7nm power efficiency mode." value="0"/>
+    </group>
+    <group id="grp_save" title="Save &amp; Trophy">
+      <toggle_switch id="jb_save_resign"  title="Auto-resign Saves"  description="Auto-resign saves with active account ID on import." value="0"/>
+      <toggle_switch id="jb_trophy_sync"  title="Block Trophy Sync"  description="Prevent trophy sync to PSN." value="0"/>
+    </group>
+    <button id="btn_jb_apply"             title="[ APPLY ALL CHANGES ]"/>
+  </setting_list>
+</system_settings>

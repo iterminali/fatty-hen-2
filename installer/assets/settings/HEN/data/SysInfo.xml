@@ -1,0 +1,10 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="info_display" title="Console Info">
+    <label id="lbl_fw" title="Firmware Version" description="%s"/>
+    <label id="lbl_hen" title="PhantomHEN Version" description="%s"/>
+    <label id="lbl_cpu" title="CPU Temp" description="%s"/>
+    <label id="lbl_gpu" title="SOC Temp" description="%s"/>
+    <label id="lbl_uptime" title="Uptime" description="%s"/>
+    <label id="lbl_sdk" title="SDK" description="OpenOrbis (FreeBSD 9.0)"/>
+  </setting_list>
+</system_settings>

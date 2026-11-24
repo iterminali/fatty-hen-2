@@ -1,0 +1,18 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="psn_bypass" title="★ PSN Bypass">
+    <group id="grp_plus" title="PS Plus">
+      <toggle_switch id="psn_plus_bypass"  title="PS Plus Bypass"     description="Removes PS Plus requirement from online games. Already active — toggle persists across reboots." value="1"/>
+      <toggle_switch id="psn_plus_ui"      title="Hide PS Plus Nags"  description="Suppress PS Plus upsell panels in the shell." value="1"/>
+    </group>
+    <group id="grp_signin" title="Sign-In">
+      <toggle_switch id="psn_signin_bypass" title="Sign-In Bypass"    description="Prevents PSN sign-in prompts. Redirect to HEN settings instead. Already active." value="1"/>
+      <toggle_switch id="psn_offline_mode"  title="Force Offline Mode" description="Keep network available but block all PSN auth endpoints." value="0"/>
+    </group>
+    <group id="grp_ban" title="Ban Prevention">
+      <toggle_switch id="psn_spoof_idps"   title="IDPS Spoof"         description="Spoof console IDPS in PSN packets. Requires restart." value="0"/>
+      <toggle_switch id="psn_block_reports" title="Block Error Reports" description="Prevent crash/error telemetry reaching Sony." value="0"/>
+    </group>
+    <label id="lbl_note" title="Status" description="PS Plus and Sign-In bypasses are patched in memory at boot — these toggles control persistence across reboots."/>
+    <button id="btn_psn_apply" title="[ APPLY PSN BYPASS ]"/>
+  </setting_list>
+</system_settings>

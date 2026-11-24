@@ -1,0 +1,5 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="id_plugin_manager" title="★ PhantomHEN Plugins">
+  <message id="id_loading" title="msg_wait" busyindicator="true"/>
+  </setting_list>
+</system_settings>

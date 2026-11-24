@@ -1,0 +1,8 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="session_stats_link" title="Session Stats">
+    <label id="lbl_up" title="System Uptime" description="%s"/>
+    <label id="lbl_patches" title="Patches Applied" description="See klog for patch count"/>
+    <label id="lbl_svcs"  title="Active Services" description="plugin_server, plugin_mono"/>
+    <label id="lbl_peak"  title="Peak CPU Temp" description="-- °C"/>
+  </setting_list>
+</system_settings>

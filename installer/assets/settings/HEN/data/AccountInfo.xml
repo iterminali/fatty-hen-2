@@ -1,0 +1,9 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="account_info_display" title="Account IDs">
+    <label id="lbl_u0" title="%s" description="%s"/>
+    <label id="lbl_u1" title="%s" description="%s"/>
+    <label id="lbl_u2" title="%s" description="%s"/>
+    <label id="lbl_u3" title="%s" description="%s"/>
+    <label id="lbl_note" title="Tip" description="Copy your account ID for Save Manager resign."/>
+  </setting_list>
+</system_settings>

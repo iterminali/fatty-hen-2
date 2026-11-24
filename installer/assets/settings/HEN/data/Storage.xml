@@ -1,0 +1,7 @@
+<system_settings version="1.0" plugin="settings_root_plugin">
+  <setting_list id="storage_health_link" title="Storage Detail">
+    <label id="lbl_int" title="Internal (System)" description="%s"/>
+    <label id="lbl_data" title="Internal (Data)" description="%s"/>
+    <label id="lbl_ext" title="External USB" description="%s"/>
+  </setting_list>
+</system_settings>
